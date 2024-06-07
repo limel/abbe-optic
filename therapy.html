@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Зрительная терапия</title>
+		<link rel="stylesheet" href="./css/main.min.css" />
+	</head>
+	<body>
+<!-- header -->
+<header class="header">
+	<div class="header__top">
+		<div class="container">
+			<div class="row between-lg middle-md between-md middle-lg middle-xs">
+				<div class="col-lg-2 col-md-2 col-xs-4">
+					<button class="header-mobile__btn js-mobile-opn">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+					<div class="social">
+	<a href="#" class="social__item">
+		<svg><use href="./img/sprite.svg#instagram"></use></svg>
+	</a>
+	<a href="#" class="social__item">
+		<svg><use href="./img/sprite.svg#facebook"></use></svg>
+	</a>
+</div>
+
+				</div>
+				<div class="col-lg-2 col-md-3 js-header-contacts">
+					<a href="#" class="header__phone">+38 066 815-43-19 </a>
+					<a href="#" class="btn btn-secondary btn-border-pink">
+						Запись к врачу
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-3 col-xs-5">
+					<a href="#" class="header__logo">
+						<svg><use href="./img/sprite.svg#logo"></use></svg>
+					</a>
+				</div>
+				<div class="col-lg-1"></div>
+				<div class="col-lg-3 col-md-4 col-xs-3">
+					<div class="row middle-lg between-lg end-xs">
+						<div class="col-lg-6 col-md-6 col-xs-12">
+							<div class="header-actions">
+								<a href="#">
+									<svg><use href="./img/sprite.svg#search"></use></svg>
+								</a>
+								<a href="#">
+									<svg><use href="./img/sprite.svg#heart"></use></svg>
+								</a>
+								<a href="#">
+									<svg><use href="./img/sprite.svg#shopping-bag"></use></svg>
+									<span>1</span>
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4">
+							<div class="header-lang">
+								<a href="#"> Рус </a>
+								<a href="#" class="active"> Укр </a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container js-categories">
+		<ul class="header-categories">
+	<li>
+		<a href="#">Оправы</a>
+		<div class="header-categories__toggle">
+			<svg>
+				<use href="./img/sprite.svg#dropdown-arrow"></use>
+			</svg>
+		</div>
+		<ul class="header-categories-menu">
+			<li>
+				<a href="#">Мужские</a>
+			</li>
+			<li>
+				<a href="#">Женские</a>
+			</li>
+			<li>
+				<a href="#">Унисекс</a>
+			</li>
+			<li>
+				<a href="#">Детские</a>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<a href="#">Солнцезащитные очки</a>
+		<div class="header-categories__toggle">
+			<svg>
+				<use href="./img/sprite.svg#dropdown-arrow"></use>
+			</svg>
+		</div>
+		<ul class="header-categories-menu">
+			<li>
+				<a href="#">Мужские</a>
+			</li>
+			<li>
+				<a href="#">Женские</a>
+			</li>
+			<li>
+				<a href="#">Унисекс</a>
+			</li>
+			<li>
+				<a href="#">Детские</a>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<a href="#">Линзы</a>
+		<div class="header-categories__toggle">
+			<svg>
+				<use href="./img/sprite.svg#dropdown-arrow"></use>
+			</svg>
+		</div>
+		<ul class="header-categories-menu">
+			<li>
+				<a href="#">Мужские</a>
+			</li>
+			<li>
+				<a href="#">Женские</a>
+			</li>
+			<li>
+				<a href="#">Унисекс</a>
+			</li>
+			<li>
+				<a href="#">Детские</a>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<a href="#">Диагностика</a>
+		<div class="header-categories__toggle">
+			<svg>
+				<use href="./img/sprite.svg#dropdown-arrow"></use>
+			</svg>
+		</div>
+
+		<ul class="header-categories-menu">
+			<li>
+				<a href="#">Мужские</a>
+			</li>
+			<li>
+				<a href="#">Женские</a>
+			</li>
+			<li>
+				<a href="#">Унисекс</a>
+			</li>
+			<li>
+				<a href="#">Детские</a>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<a href="#">Зрительная терапия</a>
+	</li>
+	<li>
+		<a href="#">Ремонт</a>
+	</li>
+	<li>
+		<a href="#">О нас</a>
+	</li>
+</ul>
+
+	</div>
+
+	<div class="header-mobile__wrapper">
+		<div class="header-mobile__heading">
+			<div class="row middle-sm">
+				<div class="col-xs-4">
+					<button class="header-mobile__btn-close js-mobile-cls">
+						<span></span>
+						<span></span>
+					</button>
+				</div>
+				<div class="col-xs-4">
+					<div class="header-actions header-actions_mobile">
+						<a href="#">
+							<svg><use href="./img/sprite.svg#search"></use></svg>
+						</a>
+						<a href="#">
+							<svg><use href="./img/sprite.svg#heart"></use></svg>
+						</a>
+						<a href="#">
+							<svg><use href="./img/sprite.svg#shopping-bag"></use></svg>
+							<span>1</span>
+						</a>
+					</div>
+				</div>
+				<div class="col-xs-4">
+					<div class="header-lang header-lang_mobile">
+						<a href="#"> Рус </a>
+						<a href="#" class="active"> Укр </a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="header-mobile__menu">
+			<div class="header-mobile__bottom"></div>
+		</div>
+	</div>
+</header>
+ <div class="container">
+	<div class="hero-breadcrumbs">
+		<h1 class="hero-breadcrumbs__title">Зрительная терапия</h1>
+		<ul class="breadcrumbs">
+	<li>
+		<a href="#">Главная</a>
+	</li>
+	<li class="slash">/</li>
+	 
+	<li class="slash">Зрительная терапия</li>
+</ul>
+
+	</div>
+</div>
+
+
+<div class="text-section">
+	<div class="container">
+		<div class="row middle-lg">
+			<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+				<div class="title_h3">Аппаратное лечение</div>
+				<p>
+					в современной офтальмологии успешно применяется как мягкий,
+					консервативный способ лечения и профилактики многих заболеваний органа
+					зрения. Этот вид терапии показан при усталости глаз, близорукости,
+					дальнозоркости, астигматизме, спазме аккомодации, амблиопии,
+					дистрофических и воспалительных заболеваниях переднего отрезка глаза,
+					используется в комплексной терапии таких заболеваний, как глаукома,
+					сухая форма макулодистрофии, частичная атрофия зрительного нерва и пр.
+				</p>
+				<p>
+					Аппаратное лечение представляет собой целый комплекс тренировок для
+					глаз при помощи разных приборов и методик – компьютерных, лазерных и
+					даже в определенной степени психологических. При этом происходит
+					стимулирование зрительной системы, улучшение ее общего состояния,
+					кровообращения и питания глаз, тренируются и укрепляются глазные
+					мышцы, развивается способность глаз к перефокусировке, что в итоге
+					приводит к восстановлению зрения и/или улучшению его остроты.
+				</p>
+			</div>
+			<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+				<div class="text-section__img">
+					<img src="./img/therapy-img-3.jpg" alt="img" />
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="request request_no-margin">
+	<div class="container">
+		<div class="row middle-lg">
+			<div
+				class="
+					col-lg-4 col-md-4 col-sm-12 col-xs-12
+					first-md first-lg
+					last-sm last-xs
+				"
+			>
+				<div class="request__img">
+					<img src="./img/request-img.png" alt="img" />
+				</div>
+			</div>
+			<div
+				class="
+					col-lg-8 col-md-8 col-sm-12 col-xs-12
+					center-sm center-xs
+					start-md start-lg
+				"
+			>
+				<div class="title_h2">
+					Современный метод профилактики и лечения различных заболеваний глаз
+				</div>
+				<div class="subtitle-2">Запишитесь на прием онлайн</div>
+				<a href="#" class="btn btn-primary btn-violet-1">
+					Записаться на прием
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="therapy-advantages">
+	<div class="container">
+		<div class="therapy-advantages__wrapper">
+			<div class="title_h3">Преимущества аппаратного лечения</div>
+			<p>
+				Аппаратное лечение имеет много преимуществ. Оно абсолютно безопасно,
+				подходит для всех возрастных категорий пациентов, помогает в случаях,
+				когда по каким-либо причинам противопоказано хирургическое
+				вмешательство. Своевременное использование данной процедуры может
+				улучшить зрение и предотвратить необходимость применения более
+				радикальных методов лечения. Такую терапию часто назначают в комплексе
+				восстановительных мер в послеоперационном периоде. Аппаратное лечение
+				отлично подходит для детей, поскольку безболезненно, бесконтактно, а
+				многие процедуры проходят в игровой форме.
+			</p>
+			<p>
+				В нашем салоне аппаратное лечение представлено самыми современными
+				методиками и оборудованием, наиболее эффективными при лечении и
+				профилактике нарушений зрения. Многолетний опыт и высокая квалификация
+				врачей центра позволяет максимально использовать возможности приборов
+				для достижения наилучших результатов лечения наших пациентов.
+			</p>
+		</div>
+		<div class="therapy-advantages__img">
+			<img src="./img/therapy-advantages-img-1.jpg" alt="img" />
+		</div>
+	</div>
+</div>
+
+<div class="text-section text-section_md">
+	<div class="container">
+		<div class="title_h3">Аппаратное лечение</div>
+		<p>
+			в современной офтальмологии успешно применяется как мягкий, консервативный
+			способ лечения и профилактики многих заболеваний органа зрения. Этот вид
+			терапии показан при усталости глаз, близорукости, дальнозоркости,
+			астигматизме, спазме аккомодации, амблиопии, дистрофических и
+			воспалительных заболеваниях переднего отрезка глаза, используется в
+			комплексной терапии таких заболеваний, как глаукома, сухая форма
+			макулодистрофии, частичная атрофия зрительного нерва и пр.
+		</p>
+		<p>
+			Аппаратное лечение представляет собой целый комплекс тренировок для глаз
+			при помощи разных приборов и методик – компьютерных, лазерных и даже в
+			определенной степени психологических. При этом происходит стимулирование
+			зрительной системы, улучшение ее общего состояния, кровообращения и
+			питания глаз, тренируются и укрепляются глазные мышцы, развивается
+			способность глаз к перефокусировке, что в итоге приводит к восстановлению
+			зрения и/или улучшению его остроты.
+		</p>
+	</div>
+</div>
+
+<div class="gallery">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+				<img src="./img/therapy-gallery-1.jpg" alt="img" />
+			</div>
+			<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+				<img src="./img/therapy-gallery-2.jpg" alt="img" />
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<img src="./img/therapy-gallery-3.jpg" alt="img" />
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="text-section text-section_md">
+	<div class="container">
+		<p>
+			в современной офтальмологии успешно применяется как мягкий, консервативный
+			способ лечения и профилактики многих заболеваний органа зрения. Этот вид
+			терапии показан при усталости глаз, близорукости, дальнозоркости,
+			астигматизме, спазме аккомодации, амблиопии, дистрофических и
+			воспалительных заболеваниях переднего отрезка глаза, используется в
+			комплексной терапии таких заболеваний, как глаукома, сухая форма
+			макулодистрофии, частичная атрофия зрительного нерва и пр.
+		</p>
+		<p>
+			Аппаратное лечение представляет собой целый комплекс тренировок для глаз
+			при помощи разных приборов и методик – компьютерных, лазерных и даже в
+			определенной степени психологических. При этом происходит стимулирование
+			зрительной системы, улучшение ее общего состояния, кровообращения и
+			питания глаз, тренируются и укрепляются глазные мышцы, развивается
+			способность глаз к перефокусировке, что в итоге приводит к восстановлению
+			зрения и/или улучшению его остроты.
+		</p>
+	</div>
+</div>
+
+<div class="gallery gallery_last">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+				<img src="./img/therapy-gallery-1.jpg" alt="img" />
+			</div>
+			<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+				<img src="./img/therapy-gallery-2.jpg" alt="img" />
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<img src="./img/therapy-gallery-3.jpg" alt="img" />
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="carousel">
+	<div class="container">
+		<div class="section-title"></div>
+		<div class="owl-carousel" id="salon">
+			<a
+				data-fancybox="images"
+				href="./img/carousel-img-1.jpg"
+				class="carousel__item"
+			>
+				<img src="./img/carousel-img-1.jpg" alt="img" />
+			</a>
+			<a
+				data-fancybox="images"
+				href="./img/carousel-img-2.jpg"
+				class="carousel__item"
+			>
+				<img src="./img/carousel-img-2.jpg" alt="img" />
+			</a>
+			<a
+				data-fancybox="images"
+				href="./img/carousel-img-3.jpg"
+				class="carousel__item"
+			>
+				<img src="./img/carousel-img-3.jpg" alt="img" />
+			</a>
+			<a
+				data-fancybox="images"
+				href="./img/carousel-img-4.jpg"
+				class="carousel__item"
+			>
+				<img src="./img/carousel-img-4.jpg" alt="img" />
+			</a>
+			<a
+				data-fancybox="images"
+				href="./img/carousel-img-1.jpg"
+				class="carousel__item"
+			>
+				<img src="./img/carousel-img-1.jpg" alt="img" />
+			</a>
+		</div>
+		<button
+			class="carousel__next-btn"
+			onclick="template.carouselNavigation('#salon', 'next')"
+		>
+			<svg><use href="./img/sprite.svg#arrow"></use></svg>
+		</button>
+	</div>
+</div>
+
+<!-- footer -->
+<footer class="footer">
+	<div class="container">
+		<div class="footer__col">
+			<div class="footer__title">
+				<div class="footer__title-text">
+					Меню
+				</div>
+				<div class="footer__title-toggle js-footer-toggle">
+					<span></span>
+					<span></span>
+				</div>
+				</div>
+			<ul class="footer-menu footer-menu_row js-footer-wrapper">
+				<li><a href="#">Оправы</a></li>
+				<li><a href="#">Линзы</a></li>
+				<li><a href="#">Солнцезащитные очки</a></li>
+				<li><a href="#">Ремонт</a></li>
+				<li><a href="#">Диагностика</a></li>
+				<li><a href="#">О нас</a></li>
+				<li><a href="#">Зрительная терапия</a></li>
+			</ul>
+		</div>
+		<div class="footer__col">
+			<div class="footer__title">
+				<span class="footer__title-text">Клиенту</span>
+				<div class="footer__title-toggle js-footer-toggle">
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+			<ul class="footer-menu js-footer-wrapper">
+				<li><a href="#">Блог</a></li>
+				<li><a href="#">Оплата и доставка</a></li>
+				<li><a href="#">Гарантия</a></li>
+				<li><a href="#">Контакты</a></li>
+
+			</ul>
+		</div>
+		<div class="footer__col">
+			<div class="footer__title">
+				<span class="footer__title-text">Контакты</span>
+				<div class="footer__title-toggle js-footer-toggle">
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+
+			<div class="footer-contacts js-footer-wrapper">
+				<a href="#">+38 066 815-43-19</a>
+				<a href="#">ukrvisionstore@gmail.com</a>
+			</div>
+
+			
+		</div>
+		<div class="footer__col">
+			<div class="footer__title">
+				<span class="footer__title-text">
+					Соц. сети
+				</span>
+				<div class="footer__title-toggle js-footer-toggle">
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+			<div class="footer__wrapper js-footer-wrapper">
+				<div class="social">
+	<a href="#" class="social__item">
+		<svg><use href="./img/sprite.svg#instagram"></use></svg>
+	</a>
+	<a href="#" class="social__item">
+		<svg><use href="./img/sprite.svg#facebook"></use></svg>
+	</a>
+</div>
+
+				<span class="footer__timetable">
+					С 10.00 до 20.00 без выходных
+				</span>
+			</div>
+		</div>
+	</div>
+	<div class="footer-copyright">
+		<div class="container">
+			<span>©AbbeOptic 2021</span>
+			<span>Разработка <br> сайта веб-студия <br> Alicom</span>
+		</div>
+	</div>
+</footer>
+	<div class="contact-us">
+	<div class="contact-us__wrapper">
+		<a href="#" class="contact-us__btn contact-us__btn_blue-2">
+			<div class="tooltip">messanger</div>
+			<svg><use href="./img/sprite.svg#messanger"></use></svg>
+		</a>
+		<a href="#" class="contact-us__btn contact-us__btn_red">
+			<div class="tooltip">instagram</div>
+
+			<svg><use href="./img/sprite.svg#instagram_2"></use></svg>
+		</a>
+		<a href="#" class="contact-us__btn contact-us__btn_violet-2">
+			<div class="tooltip">viber</div>
+
+			<svg><use href="./img/sprite.svg#viber"></use></svg>
+		</a>
+		<a href="#" class="contact-us__btn contact-us__btn_green">
+			<div class="tooltip">whatsapp</div>
+
+			<svg><use href="./img/sprite.svg#whatsapp"></use></svg>
+		</a>
+		<a href="#" class="contact-us__btn contact-us__btn_blue">
+			<div class="tooltip">telegram</div>
+
+			<svg><use href="./img/sprite.svg#telegram"></use></svg>
+		</a>
+		<a href="#" class="contact-us__btn contact-us__btn_orange">
+			<div class="tooltip">+380668154319</div>
+
+			<svg><use href="./img/sprite.svg#phone"></use></svg>
+		</a>
+		<a href="#" class="contact-us__btn contact-us__btn_violet">
+			<div class="tooltip">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
+				temporibus dolores ex sed distinctio ullam.
+			</div>
+
+			<svg><use href="./img/sprite.svg#notebook"></use></svg>
+		</a>
+	</div>
+
+	<button class="btn-chat js-contact-us" data-action="show">
+		<svg class="icon_1"><use href="./img/sprite.svg#chatting"></use></svg>
+		<svg class="icon_2"><use href="./img/sprite.svg#cross"></use></svg>
+	</button>
+</div>
+
+	<div class="modal" id="modal-1">
+	<div class="title_h2">Спасибо!</div>
+	<div class="modal__subtitle">Ваш заказ был успешно оформлен</div>
+</div>
+
+<div class="modal" id="modal-2">
+	<div class="title_h2">Купить в 1 клик</div>
+	<form class="modal__form">
+		<div class="input">
+			<input
+				type="text"
+				name="name"
+				placeholder="Ваше имя"
+				autocomplete="off"
+			/>
+		</div>
+		<div class="input">
+			<input
+				type="tel"
+				name="tel"
+				placeholder="Ваш телефон"
+				autocomplete="off"
+			/>
+		</div>
+		<button type="submit" class="btn btn-secondary btn-violet-1">
+			Оставить заявку
+		</button>
+	</form>
+</div>
+
+<div class="modal modal-cart" id="modal-3">
+	<div class="modal__row">
+		<div class="modal__img">
+			<img src="./img/modal-img.png" alt="img" />
+		</div>
+		<div class="modal__text">
+			Товар <a href="#">Оправы William Morris</a> был успешно добавлен в корзину
+		</div>
+	</div>
+</div>
+
+<div class="modal" id="modal-4">
+	<div class="title_h2">Обратный звонок</div>
+	<form class="modal__form">
+		<div class="input">
+			<input
+				type="text"
+				name="name"
+				placeholder="Ваше имя"
+				autocomplete="off"
+			/>
+		</div>
+		<div class="input">
+			<input
+				type="tel"
+				name="tel"
+				placeholder="Ваш телефон"
+				autocomplete="off"
+			/>
+		</div>
+		<button type="submit" class="btn btn-secondary btn-violet-1">
+			Оставить заявку
+		</button>
+	</form>
+</div>
+
+<div class="modal" id="modal-5">
+	<div class="title_h2">
+		ЗАписаться <br />
+		на прием
+	</div>
+	<form class="modal__form">
+		<div class="input">
+			<input
+				type="text"
+				name="name"
+				placeholder="Ваше имя"
+				autocomplete="off"
+			/>
+		</div>
+		<div class="input">
+			<input
+				type="tel"
+				name="tel"
+				placeholder="Ваш телефон"
+				autocomplete="off"
+			/>
+		</div>
+		<button type="submit" class="btn btn-secondary btn-violet-1">
+			Оставить заявку
+		</button>
+	</form>
+</div>
+
+<script src="./js/jquery.min.js"></script>
+<script src="./js/app.min.js"></script>
+</body>
+</html>

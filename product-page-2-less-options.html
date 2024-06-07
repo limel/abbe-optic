@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>карточка товара</title>
+		<link rel="stylesheet" href="./css/main.min.css" />
+	</head>
+	<body>
+<!-- header -->
+<header class="header">
+	<div class="header__top">
+		<div class="container">
+			<div class="row between-lg middle-md between-md middle-lg middle-xs">
+				<div class="col-lg-2 col-md-2 col-xs-4">
+					<button class="header-mobile__btn js-mobile-opn">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+					<div class="social">
+	<a href="#" class="social__item">
+		<svg><use href="./img/sprite.svg#instagram"></use></svg>
+	</a>
+	<a href="#" class="social__item">
+		<svg><use href="./img/sprite.svg#facebook"></use></svg>
+	</a>
+</div>
+
+				</div>
+				<div class="col-lg-2 col-md-3 js-header-contacts">
+					<a href="#" class="header__phone">+38 066 815-43-19 </a>
+					<a href="#" class="btn btn-secondary btn-border-pink">
+						Запись к врачу
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-3 col-xs-5">
+					<a href="#" class="header__logo">
+						<svg><use href="./img/sprite.svg#logo"></use></svg>
+					</a>
+				</div>
+				<div class="col-lg-1"></div>
+				<div class="col-lg-3 col-md-4 col-xs-3">
+					<div class="row middle-lg between-lg end-xs">
+						<div class="col-lg-6 col-md-6 col-xs-12">
+							<div class="header-actions">
+								<a href="#">
+									<svg><use href="./img/sprite.svg#search"></use></svg>
+								</a>
+								<a href="#">
+									<svg><use href="./img/sprite.svg#heart"></use></svg>
+								</a>
+								<a href="#">
+									<svg><use href="./img/sprite.svg#shopping-bag"></use></svg>
+									<span>1</span>
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4">
+							<div class="header-lang">
+								<a href="#"> Рус </a>
+								<a href="#" class="active"> Укр </a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container js-categories">
+		<ul class="header-categories">
+	<li>
+		<a href="#">Оправы</a>
+		<div class="header-categories__toggle">
+			<svg>
+				<use href="./img/sprite.svg#dropdown-arrow"></use>
+			</svg>
+		</div>
+		<ul class="header-categories-menu">
+			<li>
+				<a href="#">Мужские</a>
+			</li>
+			<li>
+				<a href="#">Женские</a>
+			</li>
+			<li>
+				<a href="#">Унисекс</a>
+			</li>
+			<li>
+				<a href="#">Детские</a>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<a href="#">Солнцезащитные очки</a>
+		<div class="header-categories__toggle">
+			<svg>
+				<use href="./img/sprite.svg#dropdown-arrow"></use>
+			</svg>
+		</div>
+		<ul class="header-categories-menu">
+			<li>
+				<a href="#">Мужские</a>
+			</li>
+			<li>
+				<a href="#">Женские</a>
+			</li>
+			<li>
+				<a href="#">Унисекс</a>
+			</li>
+			<li>
+				<a href="#">Детские</a>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<a href="#">Линзы</a>
+		<div class="header-categories__toggle">
+			<svg>
+				<use href="./img/sprite.svg#dropdown-arrow"></use>
+			</svg>
+		</div>
+		<ul class="header-categories-menu">
+			<li>
+				<a href="#">Мужские</a>
+			</li>
+			<li>
+				<a href="#">Женские</a>
+			</li>
+			<li>
+				<a href="#">Унисекс</a>
+			</li>
+			<li>
+				<a href="#">Детские</a>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<a href="#">Диагностика</a>
+		<div class="header-categories__toggle">
+			<svg>
+				<use href="./img/sprite.svg#dropdown-arrow"></use>
+			</svg>
+		</div>
+
+		<ul class="header-categories-menu">
+			<li>
+				<a href="#">Мужские</a>
+			</li>
+			<li>
+				<a href="#">Женские</a>
+			</li>
+			<li>
+				<a href="#">Унисекс</a>
+			</li>
+			<li>
+				<a href="#">Детские</a>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<a href="#">Зрительная терапия</a>
+	</li>
+	<li>
+		<a href="#">Ремонт</a>
+	</li>
+	<li>
+		<a href="#">О нас</a>
+	</li>
+</ul>
+
+	</div>
+
+	<div class="header-mobile__wrapper">
+		<div class="header-mobile__heading">
+			<div class="row middle-sm">
+				<div class="col-xs-4">
+					<button class="header-mobile__btn-close js-mobile-cls">
+						<span></span>
+						<span></span>
+					</button>
+				</div>
+				<div class="col-xs-4">
+					<div class="header-actions header-actions_mobile">
+						<a href="#">
+							<svg><use href="./img/sprite.svg#search"></use></svg>
+						</a>
+						<a href="#">
+							<svg><use href="./img/sprite.svg#heart"></use></svg>
+						</a>
+						<a href="#">
+							<svg><use href="./img/sprite.svg#shopping-bag"></use></svg>
+							<span>1</span>
+						</a>
+					</div>
+				</div>
+				<div class="col-xs-4">
+					<div class="header-lang header-lang_mobile">
+						<a href="#"> Рус </a>
+						<a href="#" class="active"> Укр </a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="header-mobile__menu">
+			<div class="header-mobile__bottom"></div>
+		</div>
+	</div>
+</header>
+ <div class="container">
+	<div class="hero-breadcrumbs">
+		<h1 class="hero-breadcrumbs__title">СОЛНЦЕЗАЩИТНЫЕ ОЧКИ GUESS</h1>
+		<ul class="breadcrumbs">
+	<li>
+		<a href="#">Главная</a>
+	</li>
+	<li class="slash">/</li>
+	<li><a href='#'>Солнцезащитные очки</a></li><li class='slash'>/</li>
+	<li class="slash">Солнцезащитные очки GUESS GUESS GU7778 92W 58</li>
+</ul>
+
+	</div>
+</div>
+
+
+<div class="product-page">
+	<div class="container">
+		<div class="product-page-gallery__rating">
+			<svg><use href="./img/sprite.svg#star-full"></use></svg>
+			<svg><use href="./img/sprite.svg#star-full"></use></svg>
+			<svg><use href="./img/sprite.svg#star-full"></use></svg>
+			<svg><use href="./img/sprite.svg#star-full"></use></svg>
+			<svg><use href="./img/sprite.svg#star-empty"></use></svg>
+			<a href="#">Отзывы (4)</a>
+		</div>
+		<div class="row">
+			<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+				<div class="product-page-gallery">
+					<div class="product-page-gallery__big big-gallery">
+						<button class="btn-like">
+							<svg><use href="./img/sprite.svg#heart"></use></svg>
+						</button>
+						<div class="stickers">
+							<div
+								class="stickers__item stickers__item_big stickers__item_violet"
+							>
+								New
+							</div>
+						</div>
+
+						<div class="owl-carousel" id="big">
+							<a
+								href="./img/product-page-11.png"
+								data-fancybox="images"
+								class="big-gallery__img"
+							>
+								<img src="./img/product-page-11.png" alt="img" />
+							</a>
+							<!--  -->
+							<a
+								href="./img/product-page-11.png"
+								data-fancybox="images"
+								class="big-gallery__img"
+							>
+								<img src="./img/product-page-11.png" alt="img" />
+							</a>
+							<a
+								href="./img/product-page-11.png"
+								data-fancybox="images"
+								class="big-gallery__img"
+							>
+								<img src="./img/product-page-11.png" alt="img" />
+							</a>
+							<a
+								href="./img/product-page-11.png"
+								data-fancybox="images"
+								class="big-gallery__img"
+							>
+								<img src="./img/product-page-11.png" alt="img" />
+							</a>
+							<a
+								href="./img/product-page-11.png"
+								data-fancybox="images"
+								class="big-gallery__img"
+							>
+								<img src="./img/product-page-11.png" alt="img" />
+							</a>
+						</div>
+					</div>
+					<div class="product-page-gallery__thumbs thumbs-gallery">
+						<div class="owl-carousel" id="thumbs">
+							<div class="thumbs-gallery__img">
+								<img src="./img/product-page-11.png" alt="img" />
+							</div>
+							<div class="thumbs-gallery__img">
+								<img src="./img/product-page-12.png" alt="img" />
+							</div>
+							<div class="thumbs-gallery__img">
+								<img src="./img/product-page-13.png" alt="img" />
+							</div>
+							<div class="thumbs-gallery__img">
+								<img src="./img/product-page-14.png" alt="img" />
+							</div>
+							<!--  -->
+							<div class="thumbs-gallery__img">
+								<img src="./img/product-page-15.png" alt="img" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+				<div class="description">
+					<div class="title_h6">
+						СОЛНЦЕЗАЩИТНЫЕ ОЧКИ GUESS GUESS GU7778 92W 58
+					</div>
+					<div class="description-info">
+						<div class="status status_violet">
+							<svg><use href="./img/sprite.svg#check-2"></use></svg>
+							В наличии
+						</div>
+						<div class="vendore-code">Арт. GU7778 92W 58</div>
+						<div class="price">
+							<span class="price__current">4888 грн</span>
+							<span class="price__old">4999 грн</span>
+						</div>
+					</div>
+
+					<div class="description-tabs" id="tabs1">
+						<div class="description-tabs__heading" data-controls>
+							<a href="#tabpane1">Одинаковые глаза</a>
+							<a href="#tabpane2">Разные глаза</a>
+						</div>
+						<div class="description-tabs__panes" data-panes>
+							<div class="description-tabs__pane options" id="tabpane1">
+								<div class="options__heading">
+									<div class="row">
+										<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+											Радиус
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+											Диоптрий
+										</div>
+									</div>
+								</div>
+								<div class="options__wrapper">
+									<div class="row">
+										<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+											<select class="js-select">
+												<option value="0">8,3</option>
+												<option value="1">7,3</option>
+												<option value="2">6,3</option>
+												<option value="3">9,0</option>
+												<option value="4">10</option>
+											</select>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+											<select class="js-select">
+												<option value="0">+2,50</option>
+												<option value="1">+1,0</option>
+												<option value="2">+1,5</option>
+												<option value="3">+2,0</option>
+												<option value="4">+3,0</option>
+												<option value="2">+3,5</option>
+												<option value="3">+4,0</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="options__wrapper">
+									<div class="row middle-xs between-xs">
+										<div class="col-lg-8 col-md-4 col-sm-5 col-xs-5">
+											<label class="checkbox">
+												<input type="checkbox" />
+												<span class="checkmark"></span>
+												<div class="checkbox__text">за 1 шт.</div>
+											</label>
+										</div>
+										<div class="col-lg-2 col-md-6 col-sm-4 col-xs-4">
+											<span>100 грн</span>
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
+											<div class="quantity">
+	<button class="decrement">
+		<svg><use href="./img/sprite.svg#minus"></use></svg>
+	</button>
+	<input type="text" disabled value="1" min="1" />
+	<button class="increment">
+		<svg><use href="./img/sprite.svg#plus"></use></svg>
+	</button>
+</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="description-tabs__pane options" id="tabpane2">
+								<div class="options__title">
+									<svg><use href="./img/sprite.svg#eye"></use></svg>
+									Левый глаз
+								</div>
+								<div class="options__heading">
+									<div class="row">
+										<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+											Радиус
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+											Диоптрий
+										</div>
+									</div>
+								</div>
+								<div class="options__wrapper">
+									<div class="row">
+										<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+											<select class="js-select">
+												<option value="0">8,3</option>
+												<option value="1">7,3</option>
+												<option value="2">6,3</option>
+												<option value="3">9,0</option>
+												<option value="4">10</option>
+											</select>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+											<select class="js-select">
+												<option value="0">+2,50</option>
+												<option value="1">+1,0</option>
+												<option value="2">+1,5</option>
+												<option value="3">+2,0</option>
+												<option value="4">+3,0</option>
+												<option value="2">+3,5</option>
+												<option value="3">+4,0</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<!-- checkbox-section -->
+								<div class="options__wrapper options__wrapper_no-border">
+									<div class="row middle-xs between-xs">
+										<div class="col-lg-8 col-md-4 col-sm-5 col-xs-5">
+											<label class="checkbox">
+												<input type="checkbox" />
+												<span class="checkmark"></span>
+												<div class="checkbox__text">за 1 шт.</div>
+											</label>
+										</div>
+										<div class="col-lg-2 col-md-6 col-sm-4 col-xs-4">
+											<span>100 грн</span>
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
+											<div class="quantity">
+	<button class="decrement">
+		<svg><use href="./img/sprite.svg#minus"></use></svg>
+	</button>
+	<input type="text" disabled value="1" min="1" />
+	<button class="increment">
+		<svg><use href="./img/sprite.svg#plus"></use></svg>
+	</button>
+</div>
+
+										</div>
+									</div>
+								</div>
+								<!-- second-pane (right-eye) -->
+								<div class="options__title">
+									<svg><use href="./img/sprite.svg#eye"></use></svg>
+									Правый глаз
+								</div>
+								<div class="options__heading">
+									<div class="row">
+										<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+											Радиус
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+											Диоптрий
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+											Цилиндр
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">Ось</div>
+									</div>
+								</div>
+								<div class="options__wrapper">
+									<div class="row">
+										<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+											<select class="js-select">
+												<option value="0">8,3</option>
+												<option value="1">7,3</option>
+												<option value="2">6,3</option>
+												<option value="3">9,0</option>
+												<option value="4">10</option>
+											</select>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+											<select class="js-select">
+												<option value="0">+2,50</option>
+												<option value="1">+1,0</option>
+												<option value="2">+1,5</option>
+												<option value="3">+2,0</option>
+												<option value="4">+3,0</option>
+												<option value="2">+3,5</option>
+												<option value="3">+4,0</option>
+											</select>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+											<select class="js-select">
+												<option value="0">-0,75</option>
+												<option value="1">-0,50</option>
+												<option value="2">-0,25</option>
+												<option value="3">0</option>
+												<option value="4">+0,25</option>
+												<option value="2">+0,50</option>
+												<option value="3">+0,75</option>
+											</select>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+											<select class="js-select">
+												<option value="0">180</option>
+												<option value="1">200</option>
+												<option value="2">220</option>
+												<option value="3">230</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<!-- checkbox-section -->
+								<div class="options__wrapper">
+									<div class="row middle-xs between-xs">
+										<div class="col-lg-8 col-md-4 col-sm-5 col-xs-5">
+											<label class="checkbox">
+												<input type="checkbox" />
+												<span class="checkmark"></span>
+												<div class="checkbox__text">за 1 шт.</div>
+											</label>
+										</div>
+										<div class="col-lg-2 col-md-6 col-sm-4 col-xs-4">
+											<span>100 грн</span>
+										</div>
+										<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
+											<div class="quantity">
+	<button class="decrement">
+		<svg><use href="./img/sprite.svg#minus"></use></svg>
+	</button>
+	<input type="text" disabled value="1" min="1" />
+	<button class="increment">
+		<svg><use href="./img/sprite.svg#plus"></use></svg>
+	</button>
+</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="description-actions">
+						<div class="row">
+							<div class="col-lg-8 col-md-7 col-sm-12 col-xs-12">
+								<a href="#" class="btn btn-primary btn-violet-1">
+									Добавить корзину
+								</a>
+							</div>
+							<div class="col-lg-4 col-md-7 col-sm-12 col-xs-12">
+								<a href="#" class="btn btn-primary btn-pink">Купить в 1 клик</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<div class="table table_no-margin">
+					<div class="table-item">
+						<div class="table__title">
+							<svg><use href="./img/sprite.svg#price-tag"></use></svg>
+							характеристики
+						</div>
+						<div class="table-item__wrapper active">
+							<div class="table-item__row">
+								<div class="table-item__key">Производитель</div>
+								<div class="table-item__line"></div>
+								<div class="table-item__value">TopVue</div>
+							</div>
+							<div class="table-item__row">
+								<div class="table-item__key">ВС:</div>
+								<div class="table-item__line"></div>
+								<div class="table-item__value">8.60</div>
+							</div>
+							<div class="table-item__row">
+								<div class="table-item__key">Диаметр:</div>
+								<div class="table-item__line"></div>
+								<div class="table-item__value">14.20</div>
+							</div>
+							<div class="table-item__row">
+								<div class="table-item__key">Количество линз в упаковке</div>
+								<div class="table-item__line"></div>
+								<div class="table-item__value">6 линз</div>
+							</div>
+							<div class="table-item__row">
+								<div class="table-item__key">Кислородопроницаемость</div>
+								<div class="table-item__line"></div>
+								<div class="table-item__value">104 Dk / t</div>
+							</div>
+							<div class="table-item__row">
+								<div class="table-item__key">Как часто менять</div>
+								<div class="table-item__line"></div>
+								<div class="table-item__value">14 дней</div>
+							</div>
+							<div class="table-item__row">
+								<div class="table-item__key">Срок годности</div>
+								<div class="table-item__line"></div>
+								<div class="table-item__value">24 месяца и более</div>
+							</div>
+							<div class="table-item__row">
+								<div class="table-item__key">Содержание воды</div>
+								<div class="table-item__line"></div>
+								<div class="table-item__value">45%</div>
+							</div>
+							<div class="table-item__row">
+								<div class="table-item__key">Диоптрии</div>
+								<div class="table-item__line"></div>
+								<div class="table-item__value">от -12.00 до +8.00</div>
+							</div>
+							<div class="table-item__row">
+								<div class="table-item__key">Материал линз</div>
+								<div class="table-item__line"></div>
+								<div class="table-item__value">Innofilcon A</div>
+							</div>
+							<div class="table-item__row">
+								<div class="table-item__key">Можно ли спать в линзах?</div>
+								<div class="table-item__line"></div>
+								<div class="table-item__value">Нет</div>
+							</div>
+							<div class="table-item__row">
+								<div class="table-item__key">УФ-фильтр</div>
+								<div class="table-item__line"></div>
+								<div class="table-item__value">Нет</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<div class="table table_no-margin">
+					<div class="table-item">
+						<div class="table__title">
+							<svg><use href="./img/sprite.svg#delivery-truck"></use></svg>
+							ОТПРАВКА И ВОЗВРАТ
+						</div>
+						<div class="table-item__wrapper active">
+							<div class="table-item__title">Отправка</div>
+							<p>
+								Адресная доставка по Украине осуществляется курьерской службой
+								«Новая Почта».
+							</p>
+							<p>
+								Доставка товара курьером на дом или в офис возможна как по
+								предоплате, так и при получении товара.
+							</p>
+
+							<div class="table-item__title">ВОЗВРАТ</div>
+							<p>
+								На мягкие контактные линзы, аксессуары к ним и средства по уходу
+								(растворы и увлажняющие капли) гарантия не предоставляется.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="reviews-form">
+	<div class="container">
+		<div class="section-title">Оставить отзыв</div>
+		<form>
+			<div class="row middle-lg">
+				<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+					<div class="input input_sm">
+						<input
+							type="text"
+							name="name"
+							autocomplete="off"
+							class="js-placeholder"
+						/>
+						<label class="input__placeholder">Ваше имя</label>
+					</div>
+				</div>
+				<div class="col-lg-1"></div>
+				<div
+					class="
+						col-lg-4 col-md-4 col-sm-12 col-xs-12
+						last-md last-lg
+						first-sm first-xs
+					"
+				>
+					<div class="rating-wrapper">
+	<div class="rating__caption">Оцените товар:</div>
+	<fieldset class="rating" role="group">
+		<input type="radio" name="rating" id="star5" value="5" />
+		<label for="star5">
+			<svg
+				width="20"
+				height="18"
+				viewBox="0 0 20 18"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path
+					d="M18.5085 6.58607L13.0536 5.7933L10.6152 0.849745C10.5486 0.714394 10.439 0.604824 10.3036 0.538222C9.96418 0.370644 9.55168 0.510292 9.38196 0.849745L6.94348 5.7933L1.4886 6.58607C1.33821 6.60756 1.20071 6.67846 1.09544 6.78588C0.968165 6.91669 0.898034 7.09267 0.900451 7.27517C0.902868 7.45766 0.977636 7.63173 1.10833 7.75912L5.05501 11.607L4.12258 17.0404C4.10072 17.1668 4.1147 17.2968 4.16296 17.4156C4.21121 17.5344 4.2918 17.6374 4.39558 17.7128C4.49937 17.7882 4.6222 17.8329 4.75014 17.8421C4.87809 17.8512 5.00603 17.8243 5.11946 17.7644L9.99856 15.1992L14.8777 17.7644C15.0109 17.8353 15.1656 17.8589 15.3138 17.8331C15.6876 17.7687 15.939 17.4142 15.8745 17.0404L14.9421 11.607L18.8888 7.75912C18.9962 7.65385 19.0671 7.51635 19.0886 7.36596C19.1466 6.98998 18.8845 6.64193 18.5085 6.58607Z"
+					fill="currentColor"
+				/>
+			</svg>
+		</label>
+		<input type="radio" name="rating" id="star4" value="4" />
+		<label for="star4">
+			<svg
+				width="20"
+				height="18"
+				viewBox="0 0 20 18"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path
+					d="M18.5085 6.58607L13.0536 5.7933L10.6152 0.849745C10.5486 0.714394 10.439 0.604824 10.3036 0.538222C9.96418 0.370644 9.55168 0.510292 9.38196 0.849745L6.94348 5.7933L1.4886 6.58607C1.33821 6.60756 1.20071 6.67846 1.09544 6.78588C0.968165 6.91669 0.898034 7.09267 0.900451 7.27517C0.902868 7.45766 0.977636 7.63173 1.10833 7.75912L5.05501 11.607L4.12258 17.0404C4.10072 17.1668 4.1147 17.2968 4.16296 17.4156C4.21121 17.5344 4.2918 17.6374 4.39558 17.7128C4.49937 17.7882 4.6222 17.8329 4.75014 17.8421C4.87809 17.8512 5.00603 17.8243 5.11946 17.7644L9.99856 15.1992L14.8777 17.7644C15.0109 17.8353 15.1656 17.8589 15.3138 17.8331C15.6876 17.7687 15.939 17.4142 15.8745 17.0404L14.9421 11.607L18.8888 7.75912C18.9962 7.65385 19.0671 7.51635 19.0886 7.36596C19.1466 6.98998 18.8845 6.64193 18.5085 6.58607Z"
+					fill="currentColor"
+				/>
+			</svg>
+		</label>
+		<input type="radio" name="rating" id="star3" value="3" />
+		<label for="star3">
+			<svg
+				width="20"
+				height="18"
+				viewBox="0 0 20 18"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path
+					d="M18.5085 6.58607L13.0536 5.7933L10.6152 0.849745C10.5486 0.714394 10.439 0.604824 10.3036 0.538222C9.96418 0.370644 9.55168 0.510292 9.38196 0.849745L6.94348 5.7933L1.4886 6.58607C1.33821 6.60756 1.20071 6.67846 1.09544 6.78588C0.968165 6.91669 0.898034 7.09267 0.900451 7.27517C0.902868 7.45766 0.977636 7.63173 1.10833 7.75912L5.05501 11.607L4.12258 17.0404C4.10072 17.1668 4.1147 17.2968 4.16296 17.4156C4.21121 17.5344 4.2918 17.6374 4.39558 17.7128C4.49937 17.7882 4.6222 17.8329 4.75014 17.8421C4.87809 17.8512 5.00603 17.8243 5.11946 17.7644L9.99856 15.1992L14.8777 17.7644C15.0109 17.8353 15.1656 17.8589 15.3138 17.8331C15.6876 17.7687 15.939 17.4142 15.8745 17.0404L14.9421 11.607L18.8888 7.75912C18.9962 7.65385 19.0671 7.51635 19.0886 7.36596C19.1466 6.98998 18.8845 6.64193 18.5085 6.58607Z"
+					fill="currentColor"
+				/>
+			</svg>
+		</label>
+		<input type="radio" name="rating" id="star2" value="2" />
+		<label for="star2">
+			<svg
+				width="20"
+				height="18"
+				viewBox="0 0 20 18"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path
+					d="M18.5085 6.58607L13.0536 5.7933L10.6152 0.849745C10.5486 0.714394 10.439 0.604824 10.3036 0.538222C9.96418 0.370644 9.55168 0.510292 9.38196 0.849745L6.94348 5.7933L1.4886 6.58607C1.33821 6.60756 1.20071 6.67846 1.09544 6.78588C0.968165 6.91669 0.898034 7.09267 0.900451 7.27517C0.902868 7.45766 0.977636 7.63173 1.10833 7.75912L5.05501 11.607L4.12258 17.0404C4.10072 17.1668 4.1147 17.2968 4.16296 17.4156C4.21121 17.5344 4.2918 17.6374 4.39558 17.7128C4.49937 17.7882 4.6222 17.8329 4.75014 17.8421C4.87809 17.8512 5.00603 17.8243 5.11946 17.7644L9.99856 15.1992L14.8777 17.7644C15.0109 17.8353 15.1656 17.8589 15.3138 17.8331C15.6876 17.7687 15.939 17.4142 15.8745 17.0404L14.9421 11.607L18.8888 7.75912C18.9962 7.65385 19.0671 7.51635 19.0886 7.36596C19.1466 6.98998 18.8845 6.64193 18.5085 6.58607Z"
+					fill="currentColor"
+				/>
+			</svg>
+		</label>
+		<input type="radio" name="rating" id="star1" value="1" />
+		<label for="star1">
+			<svg
+				width="20"
+				height="18"
+				viewBox="0 0 20 18"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path
+					d="M18.5085 6.58607L13.0536 5.7933L10.6152 0.849745C10.5486 0.714394 10.439 0.604824 10.3036 0.538222C9.96418 0.370644 9.55168 0.510292 9.38196 0.849745L6.94348 5.7933L1.4886 6.58607C1.33821 6.60756 1.20071 6.67846 1.09544 6.78588C0.968165 6.91669 0.898034 7.09267 0.900451 7.27517C0.902868 7.45766 0.977636 7.63173 1.10833 7.75912L5.05501 11.607L4.12258 17.0404C4.10072 17.1668 4.1147 17.2968 4.16296 17.4156C4.21121 17.5344 4.2918 17.6374 4.39558 17.7128C4.49937 17.7882 4.6222 17.8329 4.75014 17.8421C4.87809 17.8512 5.00603 17.8243 5.11946 17.7644L9.99856 15.1992L14.8777 17.7644C15.0109 17.8353 15.1656 17.8589 15.3138 17.8331C15.6876 17.7687 15.939 17.4142 15.8745 17.0404L14.9421 11.607L18.8888 7.75912C18.9962 7.65385 19.0671 7.51635 19.0886 7.36596C19.1466 6.98998 18.8845 6.64193 18.5085 6.58607Z"
+					fill="currentColor"
+				/>
+			</svg>
+		</label>
+	</fieldset>
+</div>
+
+				</div>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 last-md last-lg">
+					<div class="input">
+						<textarea
+							name="review-comment"
+							id=""
+							cols="1"
+							rows="7"
+							class="js-placeholder"
+						></textarea>
+						<label class="input__placeholder">Текст</label>
+					</div>
+					<button type="submit" class="btn btn-primary btn-violet-1">
+						Оставить отзыв
+					</button>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+
+
+<div class="carousel">
+	<div class="container">
+		<div class="section-title">ТАКЖЕ ВАМ МОЖЕТ ПОНРАВИТЬСЯ</div>
+		<div class="owl-carousel" id="productCarousel">
+			<div class="product-card">
+	<a href="#" class="product-card__img">
+		<div class="btn-like">
+			<svg><use href="./img/sprite.svg#heart"></use></svg>
+		</div>
+		<img src="./img/product-card-1.png" alt="img" />
+		<div class="btn btn-primary btn-white">Подробнее</div>
+		
+	</a>
+	<a href="#" class="product-card__title">Оправи Jaguar</a>
+	<div class="product-card__price">3588 грн</div>
+</div>
+
+			<div class="product-card">
+	<a href="#" class="product-card__img">
+		<div class="btn-like">
+			<svg><use href="./img/sprite.svg#heart"></use></svg>
+		</div>
+		<img src="./img/product-card-2.png" alt="img" />
+		<div class="btn btn-primary btn-white">Подробнее</div>
+		
+	</a>
+	<a href="#" class="product-card__title">Оправы William Morris</a>
+	<div class="product-card__price">4888 грн</div>
+</div>
+
+			<div class="product-card">
+	<a href="#" class="product-card__img">
+		<div class="btn-like">
+			<svg><use href="./img/sprite.svg#heart"></use></svg>
+		</div>
+		<img src="./img/product-card-3.png" alt="img" />
+		<div class="btn btn-primary btn-white">Подробнее</div>
+		<div class="stickers">
+	<div class="stickers__item stickers__item_violet">New</div>
+</div>
+
+	</a>
+	<a href="#" class="product-card__title">СОЛНЦЕЗАЩИТНЫЕ ОЧКИ</a>
+	<div class="product-card__price">4888 грн</div>
+</div>
+
+			<div class="product-card">
+	<a href="#" class="product-card__img">
+		<div class="btn-like">
+			<svg><use href="./img/sprite.svg#heart"></use></svg>
+		</div>
+		<img src="./img/product-card-4.png" alt="img" />
+		<div class="btn btn-primary btn-white">Подробнее</div>
+		
+	</a>
+	<a href="#" class="product-card__title">СОЛНЦЕЗАЩИТНЫЕ ОЧКИ HACKETT BESPOKE</a>
+	<div class="product-card__price">4888 грн</div>
+</div>
+
+		</div>
+
+		<button
+			class="carousel__next-btn"
+			onclick="template.carouselNavigation('#productCarousel', 'next')"
+		>
+			<svg><use href="./img/sprite.svg#arrow"></use></svg>
+		</button>
+	</div>
+</div>
+
+<!-- footer -->
+<footer class="footer">
+	<div class="container">
+		<div class="footer__col">
+			<div class="footer__title">
+				<div class="footer__title-text">
+					Меню
+				</div>
+				<div class="footer__title-toggle js-footer-toggle">
+					<span></span>
+					<span></span>
+				</div>
+				</div>
+			<ul class="footer-menu footer-menu_row js-footer-wrapper">
+				<li><a href="#">Оправы</a></li>
+				<li><a href="#">Линзы</a></li>
+				<li><a href="#">Солнцезащитные очки</a></li>
+				<li><a href="#">Ремонт</a></li>
+				<li><a href="#">Диагностика</a></li>
+				<li><a href="#">О нас</a></li>
+				<li><a href="#">Зрительная терапия</a></li>
+			</ul>
+		</div>
+		<div class="footer__col">
+			<div class="footer__title">
+				<span class="footer__title-text">Клиенту</span>
+				<div class="footer__title-toggle js-footer-toggle">
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+			<ul class="footer-menu js-footer-wrapper">
+				<li><a href="#">Блог</a></li>
+				<li><a href="#">Оплата и доставка</a></li>
+				<li><a href="#">Гарантия</a></li>
+				<li><a href="#">Контакты</a></li>
+
+			</ul>
+		</div>
+		<div class="footer__col">
+			<div class="footer__title">
+				<span class="footer__title-text">Контакты</span>
+				<div class="footer__title-toggle js-footer-toggle">
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+
+			<div class="footer-contacts js-footer-wrapper">
+				<a href="#">+38 066 815-43-19</a>
+				<a href="#">ukrvisionstore@gmail.com</a>
+			</div>
+
+			
+		</div>
+		<div class="footer__col">
+			<div class="footer__title">
+				<span class="footer__title-text">
+					Соц. сети
+				</span>
+				<div class="footer__title-toggle js-footer-toggle">
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+			<div class="footer__wrapper js-footer-wrapper">
+				<div class="social">
+	<a href="#" class="social__item">
+		<svg><use href="./img/sprite.svg#instagram"></use></svg>
+	</a>
+	<a href="#" class="social__item">
+		<svg><use href="./img/sprite.svg#facebook"></use></svg>
+	</a>
+</div>
+
+				<span class="footer__timetable">
+					С 10.00 до 20.00 без выходных
+				</span>
+			</div>
+		</div>
+	</div>
+	<div class="footer-copyright">
+		<div class="container">
+			<span>©AbbeOptic 2021</span>
+			<span>Разработка <br> сайта веб-студия <br> Alicom</span>
+		</div>
+	</div>
+</footer>
+	<div class="contact-us">
+	<div class="contact-us__wrapper">
+		<a href="#" class="contact-us__btn contact-us__btn_blue-2">
+			<div class="tooltip">messanger</div>
+			<svg><use href="./img/sprite.svg#messanger"></use></svg>
+		</a>
+		<a href="#" class="contact-us__btn contact-us__btn_red">
+			<div class="tooltip">instagram</div>
+
+			<svg><use href="./img/sprite.svg#instagram_2"></use></svg>
+		</a>
+		<a href="#" class="contact-us__btn contact-us__btn_violet-2">
+			<div class="tooltip">viber</div>
+
+			<svg><use href="./img/sprite.svg#viber"></use></svg>
+		</a>
+		<a href="#" class="contact-us__btn contact-us__btn_green">
+			<div class="tooltip">whatsapp</div>
+
+			<svg><use href="./img/sprite.svg#whatsapp"></use></svg>
+		</a>
+		<a href="#" class="contact-us__btn contact-us__btn_blue">
+			<div class="tooltip">telegram</div>
+
+			<svg><use href="./img/sprite.svg#telegram"></use></svg>
+		</a>
+		<a href="#" class="contact-us__btn contact-us__btn_orange">
+			<div class="tooltip">+380668154319</div>
+
+			<svg><use href="./img/sprite.svg#phone"></use></svg>
+		</a>
+		<a href="#" class="contact-us__btn contact-us__btn_violet">
+			<div class="tooltip">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
+				temporibus dolores ex sed distinctio ullam.
+			</div>
+
+			<svg><use href="./img/sprite.svg#notebook"></use></svg>
+		</a>
+	</div>
+
+	<button class="btn-chat js-contact-us" data-action="show">
+		<svg class="icon_1"><use href="./img/sprite.svg#chatting"></use></svg>
+		<svg class="icon_2"><use href="./img/sprite.svg#cross"></use></svg>
+	</button>
+</div>
+
+	<div class="modal" id="modal-1">
+	<div class="title_h2">Спасибо!</div>
+	<div class="modal__subtitle">Ваш заказ был успешно оформлен</div>
+</div>
+
+<div class="modal" id="modal-2">
+	<div class="title_h2">Купить в 1 клик</div>
+	<form class="modal__form">
+		<div class="input">
+			<input
+				type="text"
+				name="name"
+				placeholder="Ваше имя"
+				autocomplete="off"
+			/>
+		</div>
+		<div class="input">
+			<input
+				type="tel"
+				name="tel"
+				placeholder="Ваш телефон"
+				autocomplete="off"
+			/>
+		</div>
+		<button type="submit" class="btn btn-secondary btn-violet-1">
+			Оставить заявку
+		</button>
+	</form>
+</div>
+
+<div class="modal modal-cart" id="modal-3">
+	<div class="modal__row">
+		<div class="modal__img">
+			<img src="./img/modal-img.png" alt="img" />
+		</div>
+		<div class="modal__text">
+			Товар <a href="#">Оправы William Morris</a> был успешно добавлен в корзину
+		</div>
+	</div>
+</div>
+
+<div class="modal" id="modal-4">
+	<div class="title_h2">Обратный звонок</div>
+	<form class="modal__form">
+		<div class="input">
+			<input
+				type="text"
+				name="name"
+				placeholder="Ваше имя"
+				autocomplete="off"
+			/>
+		</div>
+		<div class="input">
+			<input
+				type="tel"
+				name="tel"
+				placeholder="Ваш телефон"
+				autocomplete="off"
+			/>
+		</div>
+		<button type="submit" class="btn btn-secondary btn-violet-1">
+			Оставить заявку
+		</button>
+	</form>
+</div>
+
+<div class="modal" id="modal-5">
+	<div class="title_h2">
+		ЗАписаться <br />
+		на прием
+	</div>
+	<form class="modal__form">
+		<div class="input">
+			<input
+				type="text"
+				name="name"
+				placeholder="Ваше имя"
+				autocomplete="off"
+			/>
+		</div>
+		<div class="input">
+			<input
+				type="tel"
+				name="tel"
+				placeholder="Ваш телефон"
+				autocomplete="off"
+			/>
+		</div>
+		<button type="submit" class="btn btn-secondary btn-violet-1">
+			Оставить заявку
+		</button>
+	</form>
+</div>
+
+<script src="./js/jquery.min.js"></script>
+<script src="./js/app.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Корзина</title>
+		<link rel="stylesheet" href="./css/main.min.css" />
+	</head>
+	<body>
+<!-- header -->
+<header class="header">
+	<div class="header__top">
+		<div class="container">
+			<div class="row between-lg middle-md between-md middle-lg middle-xs">
+				<div class="col-lg-2 col-md-2 col-xs-4">
+					<button class="header-mobile__btn js-mobile-opn">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+					<div class="social">
+	<a href="#" class="social__item">
+		<svg><use href="./img/sprite.svg#instagram"></use></svg>
+	</a>
+	<a href="#" class="social__item">
+		<svg><use href="./img/sprite.svg#facebook"></use></svg>
+	</a>
+</div>
+
+				</div>
+				<div class="col-lg-2 col-md-3 js-header-contacts">
+					<a href="#" class="header__phone">+38 066 815-43-19 </a>
+					<a href="#" class="btn btn-secondary btn-border-pink">
+						Запись к врачу
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-3 col-xs-5">
+					<a href="#" class="header__logo">
+						<svg><use href="./img/sprite.svg#logo"></use></svg>
+					</a>
+				</div>
+				<div class="col-lg-1"></div>
+				<div class="col-lg-3 col-md-4 col-xs-3">
+					<div class="row middle-lg between-lg end-xs">
+						<div class="col-lg-6 col-md-6 col-xs-12">
+							<div class="header-actions">
+								<a href="#">
+									<svg><use href="./img/sprite.svg#search"></use></svg>
+								</a>
+								<a href="#">
+									<svg><use href="./img/sprite.svg#heart"></use></svg>
+								</a>
+								<a href="#">
+									<svg><use href="./img/sprite.svg#shopping-bag"></use></svg>
+									<span>1</span>
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4">
+							<div class="header-lang">
+								<a href="#"> Рус </a>
+								<a href="#" class="active"> Укр </a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container js-categories">
+		<ul class="header-categories">
+	<li>
+		<a href="#">Оправы</a>
+		<div class="header-categories__toggle">
+			<svg>
+				<use href="./img/sprite.svg#dropdown-arrow"></use>
+			</svg>
+		</div>
+		<ul class="header-categories-menu">
+			<li>
+				<a href="#">Мужские</a>
+			</li>
+			<li>
+				<a href="#">Женские</a>
+			</li>
+			<li>
+				<a href="#">Унисекс</a>
+			</li>
+			<li>
+				<a href="#">Детские</a>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<a href="#">Солнцезащитные очки</a>
+		<div class="header-categories__toggle">
+			<svg>
+				<use href="./img/sprite.svg#dropdown-arrow"></use>
+			</svg>
+		</div>
+		<ul class="header-categories-menu">
+			<li>
+				<a href="#">Мужские</a>
+			</li>
+			<li>
+				<a href="#">Женские</a>
+			</li>
+			<li>
+				<a href="#">Унисекс</a>
+			</li>
+			<li>
+				<a href="#">Детские</a>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<a href="#">Линзы</a>
+		<div class="header-categories__toggle">
+			<svg>
+				<use href="./img/sprite.svg#dropdown-arrow"></use>
+			</svg>
+		</div>
+		<ul class="header-categories-menu">
+			<li>
+				<a href="#">Мужские</a>
+			</li>
+			<li>
+				<a href="#">Женские</a>
+			</li>
+			<li>
+				<a href="#">Унисекс</a>
+			</li>
+			<li>
+				<a href="#">Детские</a>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<a href="#">Диагностика</a>
+		<div class="header-categories__toggle">
+			<svg>
+				<use href="./img/sprite.svg#dropdown-arrow"></use>
+			</svg>
+		</div>
+
+		<ul class="header-categories-menu">
+			<li>
+				<a href="#">Мужские</a>
+			</li>
+			<li>
+				<a href="#">Женские</a>
+			</li>
+			<li>
+				<a href="#">Унисекс</a>
+			</li>
+			<li>
+				<a href="#">Детские</a>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<a href="#">Зрительная терапия</a>
+	</li>
+	<li>
+		<a href="#">Ремонт</a>
+	</li>
+	<li>
+		<a href="#">О нас</a>
+	</li>
+</ul>
+
+	</div>
+
+	<div class="header-mobile__wrapper">
+		<div class="header-mobile__heading">
+			<div class="row middle-sm">
+				<div class="col-xs-4">
+					<button class="header-mobile__btn-close js-mobile-cls">
+						<span></span>
+						<span></span>
+					</button>
+				</div>
+				<div class="col-xs-4">
+					<div class="header-actions header-actions_mobile">
+						<a href="#">
+							<svg><use href="./img/sprite.svg#search"></use></svg>
+						</a>
+						<a href="#">
+							<svg><use href="./img/sprite.svg#heart"></use></svg>
+						</a>
+						<a href="#">
+							<svg><use href="./img/sprite.svg#shopping-bag"></use></svg>
+							<span>1</span>
+						</a>
+					</div>
+				</div>
+				<div class="col-xs-4">
+					<div class="header-lang header-lang_mobile">
+						<a href="#"> Рус </a>
+						<a href="#" class="active"> Укр </a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="header-mobile__menu">
+			<div class="header-mobile__bottom"></div>
+		</div>
+	</div>
+</header>
+ <div class="container">
+	<div class="hero-breadcrumbs">
+		<h1 class="hero-breadcrumbs__title">Корзина</h1>
+		<ul class="breadcrumbs">
+	<li>
+		<a href="#">Главная</a>
+	</li>
+	<li class="slash">/</li>
+	 
+	<li class="slash">Корзина</li>
+</ul>
+
+	</div>
+</div>
+
+<div class="cart">
+	<div class="container">
+		<form>
+			<div class="row">
+				<div class="col-lg-7 col-md-8 col-sm-12 col-xs-12">
+					<div class="cart-products">
+						<div class="cart-products__heading">
+							<div class="row middle-xs">
+								<div class="col-sm-2 col-xs-5 center-sm">Фото</div>
+								<div class="col-sm-3 col-xs-6">Наименование</div>
+								<div class="col-sm-3 col-xs-5 center-sm">Количество</div>
+								<div class="col-sm-3 col-xs-5 center-sm">Стоимость</div>
+								<div class="col-sm-1 col-xs-2 center-sm">
+									<svg><use href="./img/sprite.svg#delete"></use></svg>
+								</div>
+							</div>
+						</div>
+						<div class="cart-products__card">
+							<div class="row middle-sm">
+								<div class="col-sm-2 col-xs-6">
+									<div class="cart-products__caption">Фото</div>
+									<a href="#" class="cart-products__img">
+										<img src="./img/cart-products-img-1.png" alt="img" />
+									</a>
+								</div>
+								<div class="col-sm-3 col-xs-6">
+									<div class="cart-products__caption">Наименование</div>
+									<a href="#" class="cart-products__title">
+										Оправы William Morris
+									</a>
+								</div>
+								<div class="col-sm-3 col-xs-6">
+									<div class="cart-products__caption">Количество</div>
+									<div class="quantity">
+	<button class="decrement">
+		<svg><use href="./img/sprite.svg#minus"></use></svg>
+	</button>
+	<input type="text" disabled value="1" min="1" />
+	<button class="increment">
+		<svg><use href="./img/sprite.svg#plus"></use></svg>
+	</button>
+</div>
+
+								</div>
+								<div class="col-sm-3 col-xs-6">
+									<div class="cart-products__caption">Стоимость</div>
+									<div class="cart-products__price">4888 грн</div>
+								</div>
+								<div class="col-sm-1">
+									<button class="cart-products__delete">
+										<svg><use href="./img/sprite.svg#delete"></use></svg>
+									</button>
+								</div>
+							</div>
+						</div>
+
+						<!--  -->
+						<div class="cart-products__card">
+							<div class="row middle-sm">
+								<div class="col-sm-2 col-xs-6">
+									<div class="cart-products__caption">Фото</div>
+									<a href="#" class="cart-products__img">
+										<img src="./img/cart-products-img-2.png" alt="img" />
+									</a>
+								</div>
+								<div class="col-sm-3 col-xs-6">
+									<div class="cart-products__caption">Наименование</div>
+									<a href="#" class="cart-products__title">
+										Оправы William Morris
+									</a>
+								</div>
+								<div class="col-sm-3 col-xs-6">
+									<div class="cart-products__caption">Количество</div>
+									<div class="quantity">
+	<button class="decrement">
+		<svg><use href="./img/sprite.svg#minus"></use></svg>
+	</button>
+	<input type="text" disabled value="1" min="1" />
+	<button class="increment">
+		<svg><use href="./img/sprite.svg#plus"></use></svg>
+	</button>
+</div>
+
+								</div>
+								<div class="col-sm-3 col-xs-6">
+									<div class="cart-products__caption">Стоимость</div>
+									<div class="cart-products__price">4888 грн</div>
+								</div>
+								<div class="col-sm-1">
+									<button class="cart-products__delete">
+										<svg><use href="./img/sprite.svg#delete"></use></svg>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--  -->
+					<div class="cart__section">
+						<div class="title_h5">Покупатель</div>
+						<div class="input input_sm">
+							<input
+								type="text"
+								name="name"
+								autocomplete="off"
+								class="js-placeholder js-validation"
+							/>
+							<label class="input__placeholder">Ваше имя</label>
+							<span class="input__message">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Doloremque aut a cum? Nobis aliquid, error adipisci nisi,
+								corrupti deserunt veritatis quae aspernatur id ipsam similique
+								aut consequatur voluptate necessitatibus iste amet! Voluptate
+								dicta quibusdam, id vero debitis iure quam expedita adipisci
+								ipsa repellendus blanditiis saepe cumque quis quae. Velit,
+								aliquid.
+							</span>
+							<!-- пример анимации валидации -->
+							<script>
+								const input = document.querySelector('.js-validation');
+								input.addEventListener('focus', e => {
+									e.target.parentNode.classList.add('input_error');
+								});
+								input.addEventListener('blur', e => {
+									e.target.parentNode.classList.remove('input_error');
+								});
+							</script>
+							<!--  -->
+						</div>
+						<div class="input input_sm">
+							<input
+								type="tel"
+								name="tel"
+								placeholder="+38 000 000 00 00"
+								autocomplete="off"
+							/>
+						</div>
+						<div class="input input_sm">
+							<input
+								type="email"
+								name="email"
+								placeholder="E-mail"
+								autocomplete="off"
+							/>
+						</div>
+					</div>
+					<div class="cart__section">
+						<div class="title_h5">сПОСОБ ДОСТАВКИ</div>
+						<div class="input input_sm">
+							<input
+								type="text"
+								name="city"
+								placeholder="Город"
+								autocomplete="off"
+							/>
+						</div>
+						<label class="checkbox checkbox_margin">
+							<input type="radio" name="delivery" />
+							<span class="checkmark"></span>
+							<div class="checkbox__text">Доставка Новой почтой</div>
+						</label>
+						<select id="department" class="select">
+							<option data-placeholder="true"></option>
+							<option value="1">Отделение1</option>
+							<option value="2">Отделение2</option>
+							<option value="3">Отделение3</option>
+							<option value="4">Отделение4</option>
+							<option value="5">Отделение5</option>
+							<option value="6">Отделение6</option>
+							<option value="7">Отделение7</option>
+							<option value="8">Отделение8</option>
+							<option value="9">Отделение9</option>
+							<option value="10">Отделение10</option>
+							<option value="11">Отделение11</option>
+							<option value="12">Отделение12</option>
+							<option value="13">Отделение13</option>
+							<option value="14">Отделение14</option>
+							<option value="15">Отделение15</option>
+						</select>
+
+						<label class="checkbox">
+							<input type="radio" name="delivery" />
+							<span class="checkmark"></span>
+							<div class="checkbox__text">Доставка курьером Новой почты</div>
+						</label>
+						<label class="checkbox">
+							<input type="radio" name="delivery" />
+							<span class="checkmark"></span>
+							<div class="checkbox__text">Самовывоз, с салона Abbe Optic</div>
+						</label>
+						<label class="checkbox">
+							<input type="radio" name="delivery" />
+							<span class="checkmark"></span>
+							<div class="checkbox__text">Другое</div>
+						</label>
+					</div>
+
+					<div class="cart__section">
+						<div class="title_h5">сПОСОБ оплаты</div>
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+								<label class="checkbox">
+									<input type="radio" name="payment" />
+									<span class="checkmark"></span>
+									<div class="checkbox__text">Оплата наличными</div>
+								</label>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+								<label class="checkbox">
+									<input type="radio" name="payment" />
+									<span class="checkmark"></span>
+									<div class="checkbox__text">Перевод на р\с</div>
+								</label>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+								<label class="checkbox">
+									<input type="radio" name="payment" />
+									<span class="checkmark"></span>
+									<div class="checkbox__text">Оплата картой</div>
+								</label>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+								<label class="checkbox">
+									<input type="radio" name="payment" />
+									<span class="checkmark"></span>
+									<div class="checkbox__text">Наложенный платеж</div>
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="cart__section">
+						<div class="input input_sm">
+							<textarea
+								name="order-comment"
+								id=""
+								cols="1"
+								rows="6"
+								placeholder="Комментарий"
+							></textarea>
+						</div>
+					</div>
+
+					<a href="#" class="cart__back">
+						<svg><use href="./img/sprite.svg#dropdown-arrow"></use></svg>
+						Вернуться к покупкам
+					</a>
+				</div>
+				<div class="col-lg-5 col-md-4 col-sm-12 col-xs-12">
+					<div class="order-info">
+						<div class="order-info__title">Итого</div>
+						<div class="order-info__key">Количество товаров</div>
+						<div class="order-info__value">2</div>
+						<div class="order-info__key">Стоимость товаров</div>
+						<div class="order-info__value">9776 грн</div>
+						<a href="#" class="order-info__href">У меня есть промокод</a>
+						<div class="order-info__key order-info__key_total">
+							Итого к оплате
+						</div>
+						<div class="order-info__value order-info__value_total">
+							9776 грн
+						</div>
+						<button
+							type="submit"
+							class="btn btn-primary btn-violet-1 js-cart-submit"
+							disabled
+						>
+							Оформить заказ
+						</button>
+						<div class="order-info__policy">
+							<label class="checkbox">
+								<input type="checkbox" class="js-policy" />
+								<span class="checkmark"></span>
+							</label>
+							<div class="checkbox__caption">
+								Нажимая кнопку “Оформить заказ” вы принимаете условия
+								<a href="#">Публичной оферты</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+<!-- footer -->
+<footer class="footer">
+	<div class="container">
+		<div class="footer__col">
+			<div class="footer__title">
+				<div class="footer__title-text">
+					Меню
+				</div>
+				<div class="footer__title-toggle js-footer-toggle">
+					<span></span>
+					<span></span>
+				</div>
+				</div>
+			<ul class="footer-menu footer-menu_row js-footer-wrapper">
+				<li><a href="#">Оправы</a></li>
+				<li><a href="#">Линзы</a></li>
+				<li><a href="#">Солнцезащитные очки</a></li>
+				<li><a href="#">Ремонт</a></li>
+				<li><a href="#">Диагностика</a></li>
+				<li><a href="#">О нас</a></li>
+				<li><a href="#">Зрительная терапия</a></li>
+			</ul>
+		</div>
+		<div class="footer__col">
+			<div class="footer__title">
+				<span class="footer__title-text">Клиенту</span>
+				<div class="footer__title-toggle js-footer-toggle">
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+			<ul class="footer-menu js-footer-wrapper">
+				<li><a href="#">Блог</a></li>
+				<li><a href="#">Оплата и доставка</a></li>
+				<li><a href="#">Гарантия</a></li>
+				<li><a href="#">Контакты</a></li>
+
+			</ul>
+		</div>
+		<div class="footer__col">
+			<div class="footer__title">
+				<span class="footer__title-text">Контакты</span>
+				<div class="footer__title-toggle js-footer-toggle">
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+
+			<div class="footer-contacts js-footer-wrapper">
+				<a href="#">+38 066 815-43-19</a>
+				<a href="#">ukrvisionstore@gmail.com</a>
+			</div>
+
+			
+		</div>
+		<div class="footer__col">
+			<div class="footer__title">
+				<span class="footer__title-text">
+					Соц. сети
+				</span>
+				<div class="footer__title-toggle js-footer-toggle">
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+			<div class="footer__wrapper js-footer-wrapper">
+				<div class="social">
+	<a href="#" class="social__item">
+		<svg><use href="./img/sprite.svg#instagram"></use></svg>
+	</a>
+	<a href="#" class="social__item">
+		<svg><use href="./img/sprite.svg#facebook"></use></svg>
+	</a>
+</div>
+
+				<span class="footer__timetable">
+					С 10.00 до 20.00 без выходных
+				</span>
+			</div>
+		</div>
+	</div>
+	<div class="footer-copyright">
+		<div class="container">
+			<span>©AbbeOptic 2021</span>
+			<span>Разработка <br> сайта веб-студия <br> Alicom</span>
+		</div>
+	</div>
+</footer>
+	<div class="contact-us">
+	<div class="contact-us__wrapper">
+		<a href="#" class="contact-us__btn contact-us__btn_blue-2">
+			<div class="tooltip">messanger</div>
+			<svg><use href="./img/sprite.svg#messanger"></use></svg>
+		</a>
+		<a href="#" class="contact-us__btn contact-us__btn_red">
+			<div class="tooltip">instagram</div>
+
+			<svg><use href="./img/sprite.svg#instagram_2"></use></svg>
+		</a>
+		<a href="#" class="contact-us__btn contact-us__btn_violet-2">
+			<div class="tooltip">viber</div>
+
+			<svg><use href="./img/sprite.svg#viber"></use></svg>
+		</a>
+		<a href="#" class="contact-us__btn contact-us__btn_green">
+			<div class="tooltip">whatsapp</div>
+
+			<svg><use href="./img/sprite.svg#whatsapp"></use></svg>
+		</a>
+		<a href="#" class="contact-us__btn contact-us__btn_blue">
+			<div class="tooltip">telegram</div>
+
+			<svg><use href="./img/sprite.svg#telegram"></use></svg>
+		</a>
+		<a href="#" class="contact-us__btn contact-us__btn_orange">
+			<div class="tooltip">+380668154319</div>
+
+			<svg><use href="./img/sprite.svg#phone"></use></svg>
+		</a>
+		<a href="#" class="contact-us__btn contact-us__btn_violet">
+			<div class="tooltip">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
+				temporibus dolores ex sed distinctio ullam.
+			</div>
+
+			<svg><use href="./img/sprite.svg#notebook"></use></svg>
+		</a>
+	</div>
+
+	<button class="btn-chat js-contact-us" data-action="show">
+		<svg class="icon_1"><use href="./img/sprite.svg#chatting"></use></svg>
+		<svg class="icon_2"><use href="./img/sprite.svg#cross"></use></svg>
+	</button>
+</div>
+
+	<div class="modal" id="modal-1">
+	<div class="title_h2">Спасибо!</div>
+	<div class="modal__subtitle">Ваш заказ был успешно оформлен</div>
+</div>
+
+<div class="modal" id="modal-2">
+	<div class="title_h2">Купить в 1 клик</div>
+	<form class="modal__form">
+		<div class="input">
+			<input
+				type="text"
+				name="name"
+				placeholder="Ваше имя"
+				autocomplete="off"
+			/>
+		</div>
+		<div class="input">
+			<input
+				type="tel"
+				name="tel"
+				placeholder="Ваш телефон"
+				autocomplete="off"
+			/>
+		</div>
+		<button type="submit" class="btn btn-secondary btn-violet-1">
+			Оставить заявку
+		</button>
+	</form>
+</div>
+
+<div class="modal modal-cart" id="modal-3">
+	<div class="modal__row">
+		<div class="modal__img">
+			<img src="./img/modal-img.png" alt="img" />
+		</div>
+		<div class="modal__text">
+			Товар <a href="#">Оправы William Morris</a> был успешно добавлен в корзину
+		</div>
+	</div>
+</div>
+
+<div class="modal" id="modal-4">
+	<div class="title_h2">Обратный звонок</div>
+	<form class="modal__form">
+		<div class="input">
+			<input
+				type="text"
+				name="name"
+				placeholder="Ваше имя"
+				autocomplete="off"
+			/>
+		</div>
+		<div class="input">
+			<input
+				type="tel"
+				name="tel"
+				placeholder="Ваш телефон"
+				autocomplete="off"
+			/>
+		</div>
+		<button type="submit" class="btn btn-secondary btn-violet-1">
+			Оставить заявку
+		</button>
+	</form>
+</div>
+
+<div class="modal" id="modal-5">
+	<div class="title_h2">
+		ЗАписаться <br />
+		на прием
+	</div>
+	<form class="modal__form">
+		<div class="input">
+			<input
+				type="text"
+				name="name"
+				placeholder="Ваше имя"
+				autocomplete="off"
+			/>
+		</div>
+		<div class="input">
+			<input
+				type="tel"
+				name="tel"
+				placeholder="Ваш телефон"
+				autocomplete="off"
+			/>
+		</div>
+		<button type="submit" class="btn btn-secondary btn-violet-1">
+			Оставить заявку
+		</button>
+	</form>
+</div>
+
+<script src="./js/jquery.min.js"></script>
+<script src="./js/app.min.js"></script>
+</body>
+</html>
